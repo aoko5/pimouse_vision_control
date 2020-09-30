@@ -1,8 +1,5 @@
 #!/bin/bash -xve
 
-sudo apt-get update
-sudo apt-get -f install opencv-data libopencv-dev python-opencv
-
 sudo apt-get install ros-kinetic-cv-bridge
 sudo apt-get install ros-kinetic-cv-camera
 
